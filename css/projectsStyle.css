@@ -52,6 +52,7 @@ ul li:hover{
 /* Start_Projects_section */
 .row{
     overflow-x: scroll;
+    padding: 30px 10px;
 
 }
 .projects .row .card {
@@ -61,6 +62,10 @@ ul li:hover{
   box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%), 0px 2px 4px 0px rgb(0 0 0 / 12%);
  background-color: #ffffff0d;
  color: var(--text-color);
+ transition: all .5s;
+}
+.projects .row .card:hover{
+    transform: scale(1.1);
 }
 .projects .row .card .box .card-title{
     font-size: 30px;
